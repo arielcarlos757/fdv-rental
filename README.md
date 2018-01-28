@@ -1,10 +1,12 @@
 # Rental Bike
-Lenguaje: Java
+Lenguaje: Java (jdk1.8.0_162)
+
 
 # Librerías: 
 Junit 4.12
 AssertJ 3.8.0
 cobertura 2.7
+
  
 ### Detalles
 
@@ -20,10 +22,9 @@ como el tipo de renta, cantidad de bicicletas rentadas,cantidad de tiempo de la 
 de la operacion.
 
 # Ejecucion de los test
-Descargar el proyecto y usando maven executar: **mvn clean test**
+Descargar el proyecto y ejecutar el sig commando maven: **mvn clean test**
 
-Cobertura
-
+# Cobertura
 Se utiliza plugin cobertura para el reporte : **mvn cobertura:cobertura**
 generando el reporte en la sig ubicacion : ${project}/rental-bike/target/site/cobertura/index.html
 
